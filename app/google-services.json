@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "694156593113",
+    "project_id": "mindguard2-7743d",
+    "storage_bucket": "mindguard2-7743d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694156593113:android:bbc485f749a281f515bbc8",
+        "android_client_info": {
+          "package_name": "com.example.mindguard2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCShQ2L5ShKOuUeSn3dwDsgxSED_1JF6Kg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

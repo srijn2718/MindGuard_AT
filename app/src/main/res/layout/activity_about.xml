@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="20dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        android:layout_margin="5dp"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="MindGuard is an innovative Android app designed to revolutionize mental health tracking. By
+combining daily check-ins, a progress dashboard, and personalized exercise recommendations,
+it empowers users to actively engage in their mental well-being. The app's curated library offers
+valuable articles, while the Nearby Doctors Directory connects users with mental health
+professionals nearby.\n\n MindGuard's standout feature includes a suicide prevention helpline for
+immediate assistance. Prioritizing privacy with robust encryption, the app invites continuous
+improvement through user feedback. Positioned to become a pivotal resource in mental health,
+MindGuard contributes to fostering a positive and proactive mental health culture. "
+            android:padding="5dp"
+            android:layout_margin="5dp"/>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
