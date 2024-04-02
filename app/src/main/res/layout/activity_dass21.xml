@@ -34,7 +34,7 @@ time on any statement.\n\n
     </androidx.cardview.widget.CardView>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerview"
+        android:id="@+id/recyclerview2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="9"

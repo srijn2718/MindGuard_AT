@@ -89,6 +89,14 @@
                     android:layout_gravity="center"/>
             </androidx.cardview.widget.CardView>
 
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="gotocommunityacti"
+                android:text="Community "
+                android:textSize="20dp" />
+
         </LinearLayout>
 
 

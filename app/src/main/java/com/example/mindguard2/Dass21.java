@@ -32,7 +32,7 @@ public class Dass21 extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        recyclerView=findViewById(R.id.recyclerview);
+        recyclerView=findViewById(R.id.recyclerview2);
         submit=findViewById(R.id.button3);
         list=new ArrayList<>();
         list.add(new dass21model("I found it hard to wind down",-1));
